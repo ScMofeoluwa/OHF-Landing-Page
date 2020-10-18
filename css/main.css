@@ -75,11 +75,14 @@ body {
     border: none;
     outline: none;
     max-width: 160px;
+    transition: all ease 0.35s;
 }
 
 .donate-btn:hover{
     cursor: pointer;
     background-color: rgb(14, 187, 14);
+    color: #ffffff;
+    text-decoration: none;
 }
 
 /* HOME SECTION */
