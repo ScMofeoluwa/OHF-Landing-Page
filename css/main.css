@@ -6,7 +6,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
+  
 /* HEADER SECTION */
 .navbar{
     background-color: #500f35;
@@ -105,16 +105,16 @@ body {
 
 @keyframes slider{
     0%{
-        background-image: url('../images/child.jpeg');
+        background-image: url('../images/background/child.jpeg');
     }
     35%{
-        background-image: url('../images/children-laughing.jpg');
+        background-image: url('../images/background/children-laughing.jpg');
     }
     75%{
-        background-image: url('../images/children.jpg');
+        background-image: url('../images/background/children.jpg');
     }
     100%{
-        background-image: url('../images/Feeding-Program-2-min.jpg');
+        background-image: url('../images/background/Feeding-Program-2-min.jpg');
     }
 }
 
@@ -191,7 +191,7 @@ body {
 
 .title{
     color: #500f35;
-    border-bottom: 2px solid #500f35;
+    border-bottom: 3px solid #500f35;
     padding-bottom: 10px;
     width: 200px;
     transition: .3s all ease-in-out;
@@ -209,8 +209,41 @@ body {
 .team-section{
     padding:50px 50px;
     padding-bottom: 70px;
-    background-color: #5f2a48;
+    background-color: #ffffff;
     color: #ffffff;
     overflow: hidden;
 }
 
+.team-members{
+    align-content: center;
+    justify-content: center;
+}
+
+.image-container{
+    padding: 20px 0px;
+}
+
+
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #ccc5c5;
+}
+
+.image-name{
+    color: #500f35;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.image-title{
+    margin-top: -10px;
+    color: #b394a6;
+    font-weight: 500;
+}
+
+.image-profession{
+    margin-top: -12px;
+    font-size: 12px;
+}
