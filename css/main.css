@@ -179,7 +179,7 @@ body {
 .about-section{
     padding:50px 20px 50px;
     padding-bottom: 70px;
-    background-color: #ccc5c5;
+    background-color: rgb(240, 236, 236);
     color: #222222;
     overflow: hidden;
     
@@ -249,4 +249,39 @@ body {
 .image-profession{
     margin-top: -12px;
     font-size: 12px;
+}
+
+/* Footer Section */
+
+.footer-bgn{
+    padding-top: 20px;
+    background-color: #500f35;
+    color: #ffffff;
+}
+
+.go ul li{
+    list-style: none
+}
+
+.go{
+    font-size: 13.5px;
+    margin-right: 15px;
+
+}
+
+.go ul{
+    display: inline;
+}
+
+.ff{
+    font-size: 13.5px;
+}
+
+.fg{
+    display: flex;
+    justify-content: space-evenly;
+}
+.g{
+    background-color: white;
+    margin-bottom: 0px;
 }
